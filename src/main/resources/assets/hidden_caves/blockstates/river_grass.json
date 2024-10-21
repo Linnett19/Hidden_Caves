@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "":
+    {
+      "model": "hidden_caves:block/river_grass",
+      "weight": 1
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "hidden_caves:mossy_river_pebbles",
+    "hidden_caves:river_moss",
+    "minecraft:dirt",
+    "minecraft:grass_block",
+    "minecraft:podzol"
+  ]
+}

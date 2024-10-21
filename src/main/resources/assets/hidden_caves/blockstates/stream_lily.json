@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "":
+    {
+      "model": "hidden_caves:block/stream_lily",
+      "weight": 1
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "north": "hidden_caves:block/mossy_river_pebbles",
+    "south": "hidden_caves:block/mossy_river_pebbles",
+    "east": "hidden_caves:block/mossy_river_pebbles",
+    "west": "hidden_caves:block/mossy_river_pebbles",
+    "up": "hidden_caves:block/river_moss_bloom_4",
+    "down": "hidden_caves:block/river_pebbles",
+    "particle": "hidden_caves:block/mossy_river_pebbles"
+  }
+}

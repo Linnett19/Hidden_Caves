@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "": [
+      { "model": "hidden_caves:block/stream_lily_pad" },
+      { "model": "hidden_caves:block/stream_lily_pad1" },
+      { "model": "hidden_caves:block/stream_lily_pad2" },
+      { "model": "hidden_caves:block/stream_lily_pad3" }
+    ]
+  }
+}
+

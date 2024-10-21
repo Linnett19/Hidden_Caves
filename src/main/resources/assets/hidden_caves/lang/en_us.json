@@ -1,0 +1,31 @@
+{
+  "item.hidden_caves.cave_book": "§eCave Book",
+  "item.hidden_caves.wip_item": "§6Wip Item",
+
+  // River Cave
+
+  "block.hidden_caves.river_pebbles_golden_ore": "River Slate Golden Ore",
+  "block.hidden_caves.chiseled_river_pebbles_bricks": "Chiseled River Slate Bricks",
+  "block.hidden_caves.polished_river_pebbles": "Polished River Slate",
+  "block.hidden_caves.river_pebbles_bricks": "River Slate Bricks",
+  "block.hidden_caves.river_pebbles": "River Slate",
+  "block.hidden_caves.river_grass": "River Grass",
+  "block.hidden_caves.stream_lily": "Stream Lily",
+  "block.hidden_caves.river_moss": "River Moss",
+  "block.hidden_caves.stream_lily_pad": "Stream Lily Pad",
+  "block.hidden_caves.mossy_river_pebbles": "Mossy River Slate",
+  "block.hidden_caves.bioluminescence_block": "Bioluminescence Block",
+  "block.hidden_caves.pot_flower": "§bPot Flower",
+
+
+  "item.hidden_caves.water_lily_pottery_sherd": "Water Lily Pottery Sherd",
+  "item.hidden_caves.bioluminescent_cream": "Bioluminescent Cream",
+  "item.hidden_caves.jug_flower": "Jug Flower",
+
+
+
+  "creativetab.subterranean_streams": "Subterranean Streams",
+  "creativetab.garbage_dump": "Garbage Dump",
+  "creativetab.wind_gorges": "Wind Gorges",
+  "creativetab.underground_swamps": "Undergound Swamps"
+}

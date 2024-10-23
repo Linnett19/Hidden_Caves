@@ -1,6 +1,9 @@
 package com.linnett.hidden_caves.block;
 
 import com.linnett.hidden_caves.Hidden_caves;
+import com.linnett.hidden_caves.block.custom.BioLuminescentBlock;
+import com.linnett.hidden_caves.block.custom.PotFLower;
+import com.linnett.hidden_caves.block.custom.RiverGrassBlock;
 import com.linnett.hidden_caves.item.ModItems;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.item.BlockItem;
@@ -53,6 +56,11 @@ public class ModBlocks {
 
 
 
+    public static final RegistryObject<Block> RIVER_ROOTS_BLOCK = registerBlock("river_roots_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.ROOTED_DIRT)));
+
+
+
     public static final RegistryObject<Block> STREAM_LILY = BLOCKS.register("stream_lily",
             () -> new WaterlilyBlock(BlockBehaviour.Properties.copy(Blocks.LILY_PAD)){
                 @Override
@@ -70,7 +78,7 @@ public class ModBlocks {
             });
 
     public static final RegistryObject<Block> BIOLUMINESCENCE_BLOCK = registerBlock("bioluminescence_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.SLIME_BLOCK)
+            () -> new BioLuminescentBlock(BlockBehaviour.Properties.copy(Blocks.SLIME_BLOCK)
                     .strength(1.5f)
                     .lightLevel((state) -> 7)) {
 

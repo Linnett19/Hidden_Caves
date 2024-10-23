@@ -3,6 +3,7 @@ package com.linnett.hidden_caves;
 import com.linnett.hidden_caves.block.ModBlocks;
 import com.linnett.hidden_caves.item.HiddenCavesModTabs;
 import com.linnett.hidden_caves.item.ModItems;
+import com.linnett.hidden_caves.particles.HCparticleRegistry;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.ComposterBlock;
@@ -34,7 +35,7 @@ public class Hidden_caves {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
-
+        HCparticleRegistry.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
 
 

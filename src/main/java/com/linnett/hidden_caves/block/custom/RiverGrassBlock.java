@@ -1,4 +1,4 @@
-package com.linnett.hidden_caves.block;
+package com.linnett.hidden_caves.block.custom;
 
 public class RiverGrassBlock extends PlantBlock {
 

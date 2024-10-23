@@ -1,6 +1,6 @@
 {
   "item.hidden_caves.cave_book": "§eCave Book",
-  "item.hidden_caves.wip_item": "§6Wip Item",
+  "item.hidden_caves.wip_item": "§6Wip",
 
   // River Cave
 
@@ -15,7 +15,9 @@
   "block.hidden_caves.stream_lily_pad": "Stream Lily Pad",
   "block.hidden_caves.mossy_river_pebbles": "Mossy River Slate",
   "block.hidden_caves.bioluminescence_block": "Bioluminescence Block",
-  "block.hidden_caves.pot_flower": "§bPot Flower",
+  "block.hidden_caves.pot_flower": "Pot Flower",
+  "block.hidden_caves.pot_flower_honey": "Pot Flower with Honey",
+  "block.hidden_caves.pot_flower_water": "Pot Flower with Water",
 
 
   "item.hidden_caves.water_lily_pottery_sherd": "Water Lily Pottery Sherd",

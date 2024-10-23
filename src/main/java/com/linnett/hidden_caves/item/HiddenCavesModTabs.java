@@ -83,7 +83,7 @@ public class HiddenCavesModTabs {
                         pOutput.accept(ModItems.STREAM_LILY_PAD.get());
                         pOutput.accept(ModItems.BIOLUMINESCENT_CREAM.get());
                         pOutput.accept(ModBlocks.BIOLUMINESCENCE_BLOCK.get());
-
+                        pOutput.accept(ModBlocks.RIVER_ROOTS_BLOCK.get());
 
 
 

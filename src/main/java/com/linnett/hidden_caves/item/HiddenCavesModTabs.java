@@ -55,6 +55,19 @@ public class HiddenCavesModTabs {
                     })
                     .build());
 
+    public static final RegistryObject<CreativeModeTab>  FROSTING_HOLLOWS = CREATIVE_MODE_TABS.register("frosting_hollows",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack((ModItems.WIP_ITEM.get())))
+                    .title(Component.translatable("creativetab.frosting_hollows"))
+                    .displayItems((itemDisplayParameters, pOutput) -> {
+
+                        pOutput.accept(ModItems.CAVE_BOOK.get());
+
+
+
+
+                    })
+                    .build());
+
     public static final RegistryObject<CreativeModeTab> UNDERGROUND_RIVERS = CREATIVE_MODE_TABS.register("subterranean_streams",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack((ModBlocks.STREAM_LILY.get())))
                     .title(Component.translatable("creativetab.subterranean_streams"))

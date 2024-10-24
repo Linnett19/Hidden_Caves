@@ -92,6 +92,7 @@ public class HiddenCavesModTabs {
                         pOutput.accept(ModItems.JUG_FLOWER.get());
                         pOutput.accept(ModItems.POT_FLOWER.get());
                         pOutput.accept(ModBlocks.RIVER_GRASS.get());
+                        pOutput.accept(ModBlocks.RIVER_ROOTS.get());
                         pOutput.accept(ModItems.STREAM_LILY.get());
                         pOutput.accept(ModItems.STREAM_LILY_PAD.get());
                         pOutput.accept(ModItems.BIOLUMINESCENT_CREAM.get());

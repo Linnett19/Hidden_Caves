@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "part=start": { "model": "hidden_caves:block/river_roots_base" },
+    "part=middle": { "model": "hidden_caves:block/river_roots_middle" },
+    "part=end": { "model": "hidden_caves:block/river_roots_end" }
+  }
+}

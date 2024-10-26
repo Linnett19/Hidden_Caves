@@ -2,6 +2,7 @@ package com.linnett.hidden_caves.block;
 
 import com.linnett.hidden_caves.Hidden_caves;
 import com.linnett.hidden_caves.block.custom.BioLuminescentBlock;
+import com.linnett.hidden_caves.block.custom.CaveRoots;
 import com.linnett.hidden_caves.block.custom.PotFLower;
 import com.linnett.hidden_caves.block.custom.RiverGrassBlock;
 import com.linnett.hidden_caves.item.ModItems;
@@ -46,6 +47,10 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> RIVER_MOSS = registerBlock("river_moss",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.MOSS_BLOCK)));
+
+    public static final RegistryObject<Block> RIVER_ROOTS = registerBlock("river_roots",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.ROOTED_DIRT)));
+
 
     public static final RegistryObject<Block> RIVER_GRASS = registerBlock("river_grass",
             () -> new RiverGrassBlock(BlockBehaviour.Properties.copy(Blocks.GRASS)));

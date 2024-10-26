@@ -16,9 +16,9 @@ public class HiddenCavesModTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Hidden_caves.MOD_ID);
 
 
-    public static final RegistryObject<CreativeModeTab> GARBAGE_DUMP = CREATIVE_MODE_TABS.register("garbage_dump",
+    public static final RegistryObject<CreativeModeTab> GARBAGE_DUMP = CREATIVE_MODE_TABS.register("the_garbage_dump",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack((ModItems.WIP_ITEM.get())))
-                    .title(Component.translatable("creativetab.garbage_dump"))
+                    .title(Component.translatable("creativetab.the_garbage_dump"))
                     .displayItems((itemDisplayParameters, pOutput) -> {
 
                         pOutput.accept(ModItems.CAVE_BOOK.get());
@@ -29,9 +29,9 @@ public class HiddenCavesModTabs {
                     })
                     .build());
 
-    public static final RegistryObject<CreativeModeTab> WIND_GORGES = CREATIVE_MODE_TABS.register("wind_gorges",
+    public static final RegistryObject<CreativeModeTab> THE_UNDERGROWTH = CREATIVE_MODE_TABS.register("the_undergrowth",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack((ModItems.WIP_ITEM.get())))
-                    .title(Component.translatable("creativetab.wind_gorges"))
+                    .title(Component.translatable("creativetab.the_undergrowth"))
                     .displayItems((itemDisplayParameters, pOutput) -> {
 
                         pOutput.accept(ModItems.CAVE_BOOK.get());
@@ -42,35 +42,10 @@ public class HiddenCavesModTabs {
                     })
                     .build());
 
-    public static final RegistryObject<CreativeModeTab> UNDERGROUND_SWAMPS = CREATIVE_MODE_TABS.register("underground_swamps",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack((ModItems.WIP_ITEM.get())))
-                    .title(Component.translatable("creativetab.underground_swamps"))
-                    .displayItems((itemDisplayParameters, pOutput) -> {
 
-                        pOutput.accept(ModItems.CAVE_BOOK.get());
-
-
-
-
-                    })
-                    .build());
-
-    public static final RegistryObject<CreativeModeTab>  FROSTING_HOLLOWS = CREATIVE_MODE_TABS.register("frosting_hollows",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack((ModItems.WIP_ITEM.get())))
-                    .title(Component.translatable("creativetab.frosting_hollows"))
-                    .displayItems((itemDisplayParameters, pOutput) -> {
-
-                        pOutput.accept(ModItems.CAVE_BOOK.get());
-
-
-
-
-                    })
-                    .build());
-
-    public static final RegistryObject<CreativeModeTab> UNDERGROUND_RIVERS = CREATIVE_MODE_TABS.register("subterranean_streams",
+    public static final RegistryObject<CreativeModeTab> SUBTERRANEAN_STREAMS = CREATIVE_MODE_TABS.register("the_subterranean_streams",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack((ModBlocks.STREAM_LILY.get())))
-                    .title(Component.translatable("creativetab.subterranean_streams"))
+                    .title(Component.translatable("creativetab.the_subterranean_streams"))
                     .displayItems((itemDisplayParameters, pOutput) -> {
 
                         pOutput.accept(ModItems.CAVE_BOOK.get());

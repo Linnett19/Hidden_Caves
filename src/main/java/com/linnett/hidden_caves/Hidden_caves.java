@@ -1,6 +1,7 @@
 package com.linnett.hidden_caves;
 
 import com.linnett.hidden_caves.block.ModBlocks;
+import com.linnett.hidden_caves.entity.ModEntities;
 import com.linnett.hidden_caves.item.HiddenCavesModTabs;
 import com.linnett.hidden_caves.item.ModItems;
 import com.linnett.hidden_caves.particles.HCparticleRegistry;
@@ -38,7 +39,7 @@ public class Hidden_caves {
         HCparticleRegistry.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
 
-
+        ModEntities.register(modEventBus);
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
 

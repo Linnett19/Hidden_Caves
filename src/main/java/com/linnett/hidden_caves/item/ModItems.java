@@ -2,6 +2,7 @@ package com.linnett.hidden_caves.item;
 
 import com.linnett.hidden_caves.Hidden_caves;
 import com.linnett.hidden_caves.block.ModBlocks;
+import com.linnett.hidden_caves.item.custom.PotFlowerItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.PlaceOnWaterBlockItem;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -21,7 +22,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> WATER_LILY_POTTERY_SHERD = ITEMS.register("water_lily_pottery_sherd",
             () -> new Item(new Item.Properties()));
-
+    public static final RegistryObject<Item> POT_FLOWER = ITEMS.register("pot_flower",
+            () -> new PotFlowerItem(ModBlocks.POT_FLOWER.get(),new Item.Properties()));
     public static final RegistryObject<Item> BIOLUMINESCENT_CREAM = ITEMS.register("bioluminescent_cream",
             () -> new Item(new Item.Properties()));
 

@@ -1,8 +1,15 @@
 {
   "variants": {
-    "":
-    {
+    "water_pot=false,honey_pot=false": {
       "model": "hidden_caves:block/pot_flower",
+      "weight": 1
+    },
+    "water_pot=true,honey_pot=false": {
+      "model": "hidden_caves:block/pot_flower_water",
+      "weight": 1
+    },
+    "water_pot=false,honey_pot=true": {
+      "model": "hidden_caves:block/pot_flower_honey",
       "weight": 1
     }
   }

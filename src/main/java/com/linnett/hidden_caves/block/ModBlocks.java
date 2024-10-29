@@ -2,7 +2,7 @@ package com.linnett.hidden_caves.block;
 
 import com.linnett.hidden_caves.Hidden_caves;
 import com.linnett.hidden_caves.block.custom.BioLuminescentBlock;
-import com.linnett.hidden_caves.block.custom.PotFLower;
+import com.linnett.hidden_caves.block.custom.PotFLowerBlock;
 import com.linnett.hidden_caves.block.custom.RiverGrassBlock;
 import com.linnett.hidden_caves.item.ModItems;
 import net.minecraft.core.BlockPos;
@@ -51,8 +51,8 @@ public class ModBlocks {
             () -> new RiverGrassBlock(BlockBehaviour.Properties.copy(Blocks.GRASS)));
 
 
-    public static final RegistryObject<Block> POT_FLOWER = registerBlock("pot_flower",
-            () -> new PotFLower(BlockBehaviour.Properties.copy(Blocks.MOSS_BLOCK).sound(SoundType.SPORE_BLOSSOM)));
+    public static final RegistryObject<Block> POT_FLOWER = BLOCKS.register("pot_flower",
+            () -> new PotFLowerBlock(BlockBehaviour.Properties.copy(Blocks.MOSS_BLOCK).sound(SoundType.SPORE_BLOSSOM)));
 
 
 

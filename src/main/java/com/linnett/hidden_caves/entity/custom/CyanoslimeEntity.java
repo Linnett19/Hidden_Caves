@@ -13,12 +13,12 @@ public class CyanoslimeEntity extends PathfinderMob {
     }
     public static AttributeSupplier.Builder createAttributes() {
         return Animal.createLivingAttributes()
-                .add(Attributes.MAX_HEALTH, 20.0F)
+                .add(Attributes.MAX_HEALTH, 25.0F)
                 .add(Attributes.FOLLOW_RANGE, 40.0F)
-                .add(Attributes.ATTACK_DAMAGE, 5.0F)
+                .add(Attributes.ATTACK_DAMAGE, 3.0F)
                 .add(Attributes.MOVEMENT_SPEED, 0.8F)
                 .add(Attributes.ATTACK_KNOCKBACK, 0.1F)
-                .add(Attributes.ARMOR, 0F);
+                .add(Attributes.ARMOR, 2F);
     }
 }
 

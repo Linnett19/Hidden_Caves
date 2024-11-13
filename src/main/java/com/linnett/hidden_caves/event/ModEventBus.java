@@ -1,4 +1,4 @@
-package com.linnett.hidden_caves.events;
+package com.linnett.hidden_caves.event;
 
 
 import com.linnett.hidden_caves.Hidden_caves;

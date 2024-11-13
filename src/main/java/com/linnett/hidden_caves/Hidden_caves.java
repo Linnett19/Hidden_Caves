@@ -20,13 +20,14 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
+import static com.linnett.hidden_caves.entity.ModEntities.ENTITY_TYPES;
+
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(Hidden_caves.MOD_ID)
 public class Hidden_caves {
 
     public static final String MOD_ID = "hidden_caves";
-    private static final Logger LOGGER = LogUtils.getLogger();
-
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public Hidden_caves() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -46,8 +47,14 @@ public class Hidden_caves {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-
     }
+
+
+
+    public static void register(IEventBus eventBus) {
+        ENTITY_TYPES.register(eventBus);
+    }
+
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {

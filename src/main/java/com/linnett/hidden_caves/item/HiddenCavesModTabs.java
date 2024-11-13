@@ -51,9 +51,6 @@ public class HiddenCavesModTabs {
                         pOutput.accept(ModItems.CAVE_BOOK.get());
 
 
-
-
-
                         pOutput.accept(ModItems.WATER_LILY_POTTERY_SHERD.get());
 
                         pOutput.accept(ModBlocks.RIVER_PEBBLES.get());
@@ -65,7 +62,6 @@ public class HiddenCavesModTabs {
                         pOutput.accept(ModBlocks.RIVER_MOSS.get());
                         pOutput.accept(ModItems.VINE_ROPE.get());
                         pOutput.accept(ModItems.JUG_FLOWER.get());
-                        pOutput.accept(ModItems.POT_FLOWER.get());
                         pOutput.accept(ModBlocks.RIVER_GRASS.get());
                         pOutput.accept(ModBlocks.RIVER_ROOTS.get());
                         pOutput.accept(ModItems.STREAM_LILY.get());
@@ -73,6 +69,18 @@ public class HiddenCavesModTabs {
                         pOutput.accept(ModItems.BIOLUMINESCENT_CREAM.get());
                         pOutput.accept(ModBlocks.BIOLUMINESCENCE_BLOCK.get());
                         pOutput.accept(ModBlocks.RIVER_ROOTS_BLOCK.get());
+
+                        pOutput.accept(ModBlocks.MARBLE.get());
+                        pOutput.accept(ModBlocks.MARBLE_LAPIS_ORE.get());
+                        pOutput.accept(ModBlocks.CHISELED_MARBLE_BRICKS.get());
+                        pOutput.accept(ModBlocks.POLISHED_MARBLE.get());
+                        pOutput.accept(ModBlocks.MARBLE_BRICKS.get());
+
+                        pOutput.accept(ModBlocks.NACRE.get());
+                        pOutput.accept(ModBlocks.CHISELED_NACRE_BRICKS.get());
+                        pOutput.accept(ModBlocks.POLISHED_NACRE.get());
+                        pOutput.accept(ModBlocks.NACRE_BRICKS.get());
+
 
 
 
